@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stake Promo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="translations.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 data-i18n="welcome">Welcome to Stake!</h1>
+    <p data-i18n="cta">Claim your $10 bonus below</p>
+    <a href="https://stake.com/?c=c16bac6b4c" class="button" data-i18n="play">🎰 Play on Stake</a>
+    <a href="https://t.me/stakeviphelper_bot" class="button telegram" data-i18n="telegram">💬 Write in Telegram</a>
+    <a href="instruction.html" class="button" data-i18n="howto">💳 How to Deposit?</a>
+
+    <div class="crypto-options">
+      <p data-i18n="buycrypto">💳 Where to Buy Crypto?</p>
+      <a href="https://www.bybit.com/invite?ref=ZY974Q" class="button bybit" target="_blank">Bybit</a>
+      <a href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_005FXA4OM1" class="button binance" target="_blank">Binance</a>
+    </div>
+
+    <div class="vpn">
+      <p data-i18n="vpn_notice">❗ Having trouble? Use VPN: Brazil or Philippines</p>
+      <a href="https://www.urban-vpn.com/" target="_blank">🌍 Urban VPN</a>
+    </div>
+  </div>
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+    loadTranslation(lang);
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+body {
+  font-family: sans-serif;
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.container {
+  background-color: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 24px;
+  background-color: #00aaff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.button.telegram {
+  background-color: #0088cc;
+}
+.vpn {
+  margin-top: 30px;
+  font-size: 0.9em;
+}
